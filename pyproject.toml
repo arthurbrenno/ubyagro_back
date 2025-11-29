@@ -1,0 +1,12 @@
+[project]
+name = "ubyagro-back"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.1"
+dependencies = [
+    "agentle>=0.9.39",
+    "agno>=2.3.4",
+    "fastapi>=0.122.0",
+    "playwright>=1.56.0",
+]
