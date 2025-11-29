@@ -86,3 +86,6 @@ async def example_extractor_usage() -> None:
         output_parsed = result.output_parsed
 
         print(output_parsed.most_relevant_information)
+
+if __name__ == "__main__":
+    asyncio.run(example_extractor_usage())

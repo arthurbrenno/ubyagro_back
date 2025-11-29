@@ -1329,6 +1329,23 @@ wheels = [
 ]
 
 [[package]]
+name = "perplexityai"
+version = "0.20.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/57/e3/5f4fefa85b0409dd254ce7a9fbb6017f1b33b059435e49207bc27a484a6b/perplexityai-0.20.1.tar.gz", hash = "sha256:8c6d2d8d6bbf7f9b8cccc998c8342d723c8834c6c845cca606a0e935614cb0d7", size = 112421 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/35/d9/87e550b3748fd16901c3d98d35f683629d9ae26252a4be04b3d53201afdd/perplexityai-0.20.1-py3-none-any.whl", hash = "sha256:cf7f12c16c20fd9266b537073b0c4aa4ce0b70028d428dae10a9a8f172366360", size = 97137 },
+]
+
+[[package]]
 name = "playwright"
 version = "1.56.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1940,6 +1957,7 @@ dependencies = [
     { name = "agentle" },
     { name = "agno" },
     { name = "fastapi" },
+    { name = "perplexityai" },
     { name = "playwright" },
 ]
 
@@ -1948,6 +1966,7 @@ requires-dist = [
     { name = "agentle", specifier = ">=0.9.39" },
     { name = "agno", specifier = ">=2.3.4" },
     { name = "fastapi", specifier = ">=0.122.0" },
+    { name = "perplexityai", specifier = ">=0.20.1" },
     { name = "playwright", specifier = ">=1.56.0" },
 ]
 
